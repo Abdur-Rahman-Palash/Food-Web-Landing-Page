@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#hero-container{
+    width: 1200px;
+    height: 600px;
+background:  linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(./hero-bg.png);
+background-position: center;
+background-size: cover;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 40px;
+}
+ .hero-content h4{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+
+}
+.hero-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.hero-content p{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+#hero-container .btn{
+border-radius: 8px;
+background: rgb(6, 140, 33);
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+border: none;
+width: 200px;
+}
+.btn-align{
+    text-align: center;
+}
+/* card box container start */
+.card-box-container{
+    width: 1500px;
+    height: 900px;
+    margin: 25px auto;
+    
+}
+.card-box-content{
+    width: 1450px;
+    height: 746px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.card-box-content h5{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-box-content h3{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-box{
+    width: 1420px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 11px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgb(82, 195, 3);
+width: 120px;
+height: 46px;
+}
+.btn-box{
+    text-align: center;
+}
+.cards{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.food-name{
+    display: flex;
+    justify-content: center;
+}
+.card-box h6{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgba(82, 195, 3, 0.15);
+}
+.card-box h4{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card-box p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+/*  */
+/* footer start */
+.footer{
+    width: 1800px;
+height: 450px;
+border: 1px solid gray;
+box-sizing: 7px;
+background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(./img/social-bg.png);
+background-position: center;
+background-size: cover;
+margin: 0 auto;
+margin-top: 25px;
+
+}
+.footer h3{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;  
+}
+.footer p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.footer h5{
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.icon{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.main-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin-top: -150px;
+    margin-bottom: 70px;
+}
+.image-icon-text{
+    width: 1800px;
+height: 450px;
+box-sizing: 7px;
+  
+}
+.image-icon-text h3{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;  
+}
+.image-icon-text p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.image-icon-text h5{
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.one-card-box{
+    text-align: center;
+    width: 1500px;
+    height: 550px;
+    margin: 25px auto;
+}
+.one-card-box h5{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgba(82, 195, 3, 0.15);
+width: 150px;
+}
+.one-card-box h4{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+.one-card-box p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
